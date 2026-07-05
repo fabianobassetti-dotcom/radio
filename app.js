@@ -113,7 +113,7 @@ const App = {
             
             this.estado.tocandoPrincipal = false;
             this.estado.tocandoBackup = true;
-            this.atualizarPainelStatus("led-backup", "▶️ PROGRAMAÇÃO AUTOMÁTICA (BACKUP)");
+            this.atualizarPainelStatus("led-backup", "▶️ PROGRAMAÇÃO AUTOMÁTICA");
         } catch (erro) {
             console.error("[Rádio Hub] Erro crítico: Ambos os servidores de áudio falharam.", erro);
             this.atualizarPainelStatus("led-inactive", "🔴 Link Indisponível (Sem Sinal)");
